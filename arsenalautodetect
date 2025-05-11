@@ -1,0 +1,9 @@
+local executor = getexecutorname()
+
+if executor == "Solara" or executor == "Xeno" then
+print("low level executor detecteed loading..")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaServicesA/washhy-xyz/refs/heads/main/arsenal%20lowlevel",true))()
+else
+print("high level executor ddetecteded loading..")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NebulaServicesA/washhy-xyz/refs/heads/main/arsenal%20high%20level",true))()
+end
